@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="blockTask">
+      <h2 class="listTask">Список завдань</h2>
+      <form name="checkboxes">
+        <ol class="list"></ol>
+      </form>
+    </div>
+    <div class="blockNewTask">
+      <h2>Додати нове завдання</h2>
+      <input type="text" class="text">
+      <button type="button" class="button">Додати</button>
+    </div>
+    <div class="warning"> <span>Попередження!</span> <img src="./img/cross.svg" alt="cross" width="15px" class="cross">
+      <br> Пусте поле додавати не можна.
+    </div>
+    <div class="warning2"> <span>Попередження!</span> <img src="./img/cross.svg" alt="cross" width="15px" class="cross2">
+        <br> Останній елемент видаляти не можна.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    background-image: url(./img/Screenshot_11.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;   
+}
+@media screen and (max-width: 500px){
+    body{
+        background-size: contain;
+    }
+}
+.warning, .warning2{
+    display: none;
+    position: absolute;
+    width: 40%;
+    color: red;
+    background-color:rgb(228, 154, 179);
+    box-shadow: 0 0 10px rgb(251, 90, 143);
+    opacity: 90%;
+    left: 30%;
+    top: 40%;
+    text-align: center;
+    padding: 10px;
+}
+/* @media screen and (max-width: 500px){
+    .warning, .warning2{
+       
+    }
+} */
+.cross, .cross2{
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.cross:hover, .cross2:hover{
+    background-color: rgb(235, 173, 194);
+}
+span{
+    font-weight: 700;
+}
+div{
+    margin-top: 70px;
+}
+@media screen and (max-width: 500px){
+    div{
+        margin-top: 20px;
+    }
+}
+
+li{
+    margin: 10px 0;
+    font-size: 20px;
+}
+label:hover{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 500px){
+    li{
+        font-size: 12px;
+    }
+    li{
+        margin: 2px 0px;
+    }
+    
+}
+input{
+    margin-right: 10px;
+    width: 0px;
+}
+@media screen and (max-width: 500px){
+    input{
+        margin: 0 2px 0 0;
+        width: 0px;
+    }
+}
+label{
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.blockTask{
+    width: 35%;
+    padding-left: 70px;
+}
+@media screen and (max-width: 500px){
+    .blockTask{
+        padding-left: 25px;
+    }
+    label{
+        margin-left: 1px;
+    }
+}
+.blockNewTask{
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 500px){
+    .blockNewTask{
+        justify-content: start;
+    }
+}
+h2{
+    font-size: 25px;
+    color: red;
+}
+@media screen and (max-width: 500px){
+    h2{
+        font-size: 12px;
+    }
+}
+.listTask{
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 500px){
+    .listTask{
+        margin-bottom: 0px;
+    } 
+   
+}
+.button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 500px){
+    .button{
+        width: auto;
+        font-size: 7px;
+        padding: 2px;
+        margin-top: 10px;
+    }
+}
+.button:focus{
+    box-shadow: 0 0 10px black;
+}
+.text{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    width: 60%;
+    font-size: 14px;
+}
+@media screen and (max-width: 500px){
+    .text{
+        margin-top: 5px;
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
